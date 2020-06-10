@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700;1,800&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
+
+/* service  */
+.service-area{
+	background: #018AC9;
+	padding: 0 0 30px 0;
+}
+.section-title{
+	text-align: center;
+	padding: 100px 0;
+}
+.section-title h2{
+	font-weight: bold;
+	color: #fff;
+	font-size: 24px;
+}
+.section-title p{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+.service-item{
+	margin: 20px 30px 30px 0;
+}
+.icon{
+	font-size: 30px;
+	float: left;
+	height: 100px;
+	margin-right: 20px;
+	color: #fff;
+
+}
+.service-text h4{
+	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+}
+.service-text p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+/* First one complete  */
+.service-area-1{
+	background: #fff;
+	padding: 0 0 20px 0;
+}
+.section-title-1{
+	text-align: center;
+	padding: 50px 0;
+}
+.section-title-1 h2{
+	font-weight: bold;
+	color: #000;
+	font-size: 24px;
+}
+.section-title-1 h2 span{
+	font-weight: 400;
+	color: #000;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+.service-item-1{
+	margin: 20px 30px 30px 0;
+}
+.icon-1{
+	font-size: 30px;
+	padding: 10px 0;
+	color: #68C1EF;
+
+}
+.service-text-1 h4{
+	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+.service-text-1 p{
+	font-size: 12px;
+	color: #000;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+/* second one end  */
+/* third one complete  */
+.service-area-2{
+	background: #fff;
+	padding: 0 0 20px 0;
+}
+.help h6{
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+	color: blue;
+}
+.help h6:before{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 4px;
+	background: green;
+	left: 50%;
+	bottom: -8px;
+	margin-left: -20px;
+}
+
+.section-title-2{
+	text-align: center;
+	padding: 30px 0 50px 0;
+}
+
+.section-title-2 h2 {
+    text-transform: capitalize;
+    padding: 0 30%;
+}
+.icon-2{
+	font-size: 30px;
+	padding: 30px 0;
+	color: #68C1EF;
+	text-align: center;
+
+}
+.service-item-2{
+	background-color:  #F5F5F5; ;
+}
+.service-text-2 h4 {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    padding: 0 85px;
+	text-align: center;
+	margin: 30px 0;
+}
+.service-text-2 p{
+	font-size: 10px;
+	color: #000;
+	line-height: 10px;
+	font-weight: 500;
+	text-align: center;
+
+}
+.service-text-2 p:last-child{
+	padding-bottom: 30px;
+}
+/* <!-- service area 3 end --> */
+/* <!-- service area 4 start--> */
+
+.service-area-3{
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.ser-title{
+	position: relative;
+	text-transform: uppercase;
+	margin: 100px 0;
+
+}
+.element{
+	border: 1px solid #ddd;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 100px;
+}
+.ser-title:before{
+	content: "";
+	height: 4px;
+	width: 40px;
+	background: #FBAD58;
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	margin-left: -19px;
+}
+.icon-4{
+	color: #fff;
+	background: #FBAD58;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -25px;
+
+}
+.ser-ele h4{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: ;
+}
+.ser-ele p{
+	text-transform: capitalize;
+	font-size: 12px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.ser-ele:before{
+	content: "";
+	position: absolute;
+	background: #FBAD58;
+	height: 3px;
+	width: 40px;
+	bottom: -1px;
+	left: 50%;
+	margin-left: -25px;
+}
+/* -- start area 5 -- */
+.area{
+	background: green;
+	height: 200px;
+	width: 100%;
+	border: 1px solid red;
+	margin: 30px 0;
+}
+.area-1{
+	background: #fff;
+}
+.area-1 img{
+	margin-top: -100px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+}
+.area-1 h3{
+	padding: 20px 0 0 0;
+	font-size: 20px;
+}
+.area-1 p{
+	font-size: 14px;
+}
+.area-1 i{
+	color: red;
+}
+.connected{
+	padding: 30px;
+	background: #fff;
+	margin-bottom: -50px;
+
+}
+
+
+.form:before{
+	position: absolute;
+	bottom: -19px;
+
+}
+	
+.form p{
+	margin: 20px;
+}
+.form input{
+	margin-right: 10px;
+}
+.form button{
+	color: #fff;
+	background: aqua;
+	border-radius: 20px;
+	border-color: aqua;
+}
+.footer{
+	padding: 50px;
+	background-color: red;
+	position: relative;
+	z-index: -1;
+}
+.content {
+    background: blue;
+}
+
+
+/* -- end area 5 -- */
+
